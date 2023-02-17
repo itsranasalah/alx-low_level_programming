@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-gcc -c $Cfile
-=======
-gcc $CFILE -o cisfun 
->>>>>>> 18565f972bdb40d4c3defb0c575d6305442ca33a
+gcc -c $CFILE > $(echo $CFILE|cut -d"." -f1).o 
