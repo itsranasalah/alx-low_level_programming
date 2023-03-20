@@ -1,5 +1,3 @@
-nes (11 sloc)  145 Bytes
-
 #include <stdio.h>
 /**
  *main - prints the name of the file
